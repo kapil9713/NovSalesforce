@@ -24,7 +24,7 @@ public class DriverFactory {
 			driver=new EdgeDriver();
 		}
 		else {
-			System.out.println("Please Pass the Right Browser"+browserName);
+			System.out.println("please Pass the Right Browser"+browserName);
 		}
 		
 		driver.manage().deleteAllCookies();
